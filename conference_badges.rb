@@ -3,7 +3,7 @@ def batch_badge_creator(names)
  x = 0 
  while x <= speakers.length-1 
  if names == speakers[x]
-   print "Hello, my name is #{speakers[x]}."
+   puts "Hello, my name is #{speakers[x]}."
  end
  x +=1
  end
